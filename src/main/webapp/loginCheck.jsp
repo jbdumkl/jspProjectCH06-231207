@@ -19,7 +19,7 @@
 	<%
 		} else {
 			out.println(sessionId + "님 로그인 중<br>");
-			Enumeration ssion = session.getAttributeNames();
+			Enumeration session = session.getAttributeNames();
 			
 			while(ssion.hasMoreElements()) {
 				name = session.nextElement().toString();//세션안에 들어있는 속성들의 이름을 가져옴
