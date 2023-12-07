@@ -7,10 +7,12 @@
 <title>회원 로그인</title>
 </head>
 <body>
-	<form action="loginOk.jsp" method="post">
-		로그인 : <input type="text" name="loginid"><br><br>
-		비밀번호 : <input type="password" name="loginpw"><br><br>
-		<input type="submit" value="로그인">
-	</form>
+		<h1>회원 로그인</h1>
+		<hr>
+		<form action="loginOk.jsp">
+				회원아이디 : <input type="text" name="mid"><br><br>
+				비밀번호 : <input type="password" name="mpw"><br><br>
+				<input type="submit" value="로그인">
+		</form>
 </body>
 </html>

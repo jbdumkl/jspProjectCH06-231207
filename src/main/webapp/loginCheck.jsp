@@ -21,7 +21,7 @@
 			out.println(sessionId + "님 로그인 중<br>");
 			Enumeration session = session.getAttributeNames();
 			
-			while(ssion.hasMoreElements()) {
+			while(session.hasMoreElements()) {
 				name = session.nextElement().toString();//세션안에 들어있는 속성들의 이름을 가져옴
 				out.println("세션내 속성 이름:"+name);
 				String sessionValue = (String) session.getAttribute(name);
